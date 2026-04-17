@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Norah McDowell Resume</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+  <style>
+    :root {
+      --paper: #ffffff;
+      --ink: #101010;
+      --line: #2b2b2b;
+      --bg: #f2f4f8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+    }
+
+    .resume-hero {
+      padding-top: calc(5rem + 72px);
+      padding-bottom: 4rem;
+    }
+
+    .resume-shell {
+      max-width: 980px;
+      margin: -2.5rem auto 3rem;
+      padding: 0 24px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .resume {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #e6e6e6;
+      border: 1px solid #b8b8b8;
+      padding: 44px 54px 52px;
+      box-shadow: none;
+      line-height: 1.12;
+      color: #000;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 1.03rem;
+    }
+
+    .resume,
+    .resume * {
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    .top-link {
+      display: inline-block;
+      margin-bottom: 22px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1f4f9b;
+      text-decoration: none;
+    }
+
+    .resume h1 {
+      font-size: 2.15rem;
+      margin: 0;
+      text-align: center;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .contact {
+      text-align: center;
+      font-size: 1.06rem;
+      margin: 2px 0 14px;
+    }
+
+    .section {
+      margin-top: 28px;
+    }
+
+    .section-title {
+      text-transform: uppercase;
+      font-size: 1.12rem;
+      font-weight: 700;
+      font-variant: small-caps;
+      border-bottom: 1px solid #1f1f1f;
+      margin: 0 0 2px;
+      letter-spacing: 0.2px;
+      line-height: 1.1;
+    }
+
+    .entry {
+      margin: 0;
+    }
+
+    .entry + .entry {
+      margin-top: 20px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: flex-end;
+      margin: 0;
+      line-height: 1.06;
+    }
+
+    .entry .row + .row {
+      margin-top: 0;
+    }
+
+    .row strong {
+      font-size: 1.06rem;
+      font-weight: 700;
+      line-height: 1.06;
+    }
+
+    .right {
+      text-align: right;
+      font-size: 1.03rem;
+      white-space: nowrap;
+      line-height: 1.06;
+    }
+
+    .subrole {
+      font-style: italic;
+      font-size: 1.02rem;
+      margin-top: 0;
+      line-height: 1.05;
+    }
+
+    .entry ul,
+    .section > ul {
+      margin: 2px 0 0 18px;
+      padding: 0;
+      list-style-type: square;
+    }
+
+    .resume li {
+      font-size: 1rem;
+      line-height: 1.07;
+      margin: 0;
+    }
+
+    @media (max-width: 900px) {
+      .resume-shell {
+        margin: -1.6rem auto 1.5rem;
+        padding: 0 10px;
+      }
+
+      .resume {
+        padding: 24px 18px;
+        font-size: 0.98rem;
+      }
+
+      .resume h1 {
+        font-size: 1.7rem;
+      }
+
+      .contact {
+        font-size: 0.98rem;
+      }
+
+      .section-title {
+        font-size: 1.02rem;
+      }
+
+      .row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1px;
+      }
+
+      .row strong {
+        font-size: 1.02rem;
+      }
+
+      .right {
+        text-align: left;
+        white-space: normal;
+        font-size: 0.98rem;
+      }
+
+      .subrole {
+        font-size: 0.98rem;
+      }
+
+      .resume li {
+        font-size: 0.97rem;
+        line-height: 1.18;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container px-5">
+      <a class="navbar-brand" href="index.html">Norah McDowell</a>
+      <div>
+        <ul class="navbar-nav ms-auto flex-row gap-3">
+          <li class="nav-item"><a class="nav-link" href="index.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="scratch.html">Scratch</a></li>
+          <li class="nav-item"><a class="nav-link" href="game.html">Game</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead text-center text-white resume-hero">
+    <div class="masthead-content">
+      <div class="container px-5">
+        <h1 class="masthead-heading mb-0">Resume</h1>
+        <h2 class="masthead-subheading mb-0">Professional Experience</h2>
+      </div>
+    </div>
+    <div class="bg-circle-1 bg-circle"></div>
+    <div class="bg-circle-2 bg-circle"></div>
+    <div class="bg-circle-3 bg-circle"></div>
+    <div class="bg-circle-4 bg-circle"></div>
+  </header>
+
+  <div class="resume-shell">
+  <main class="resume">
+    <a class="top-link" href="index.html">&larr; Back to Home</a>
+
+    <h1>Norah McDowell</h1>
+    <p class="contact">(760) 916-6012 | norahmcd613@gmail.com</p>
+
+    <section class="section">
+      <h2 class="section-title">Education</h2>
+
+      <article class="entry">
+        <div class="row">
+          <strong>Brigham Young University</strong>
+          <div class="right">Provo, UT</div>
+        </div>
+        <div class="row">
+          <div></div>
+          <div class="right">Expected Graduation: April 2029</div>
+        </div>
+        <ul>
+          <li>GPA 3.91</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="row">
+          <strong>San Marcos High School</strong>
+          <div class="right">San Marcos, CA</div>
+        </div>
+        <div class="row">
+          <div></div>
+          <div class="right">Graduation: June 2025</div>
+        </div>
+        <ul>
+          <li>GPA 4.00 / 4.35</li>
+          <li>Honor Roll ('22, '23, '24)</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Experience</h2>
+
+      <article class="entry">
+        <div class="row">
+          <strong>Handel's Homemade Icecream</strong>
+          <div class="right">San Marcos CA</div>
+        </div>
+        <div class="row">
+          <div class="subrole">Ice cream scooper and cake maker</div>
+          <div class="right">Mar. 2025 - Present</div>
+        </div>
+        <ul>
+          <li>Provided friendly, efficient customer service by accurately scooping and serving ice cream while maintaining a clean and welcoming environment</li>
+          <li>Decorated and assembled custom ice cream cakes, following store recipes and customer specifications to ensure quality presentation</li>
+          <li>Maintained food safety and sanitation standards by regularly cleaning equipment, restocking supplies, and properly storing ingredients</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="row">
+          <strong>Cake Business - Private Baker and Cake Decorator</strong>
+          <div class="right">San Marcos, CA</div>
+        </div>
+        <div class="row">
+          <div class="subrole">Baker, cake decorator, self-manager</div>
+          <div class="right">Jan. 2020 - Present</div>
+        </div>
+        <ul>
+          <li>Consult with clients about their desires for their cake order</li>
+          <li>Negotiate pricing depending on the size and type of cake</li>
+          <li>Demonstrate ability to work efficiently under pressure and meet deadlines by managing time and supplies to meet the needs of each request</li>
+          <li>Design, construct, and decorate custom cakes using several different techniques for special occasions</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="row">
+          <strong>Babysitter</strong>
+          <div class="right">San Marcos/Carlsbad, CA</div>
+        </div>
+        <div class="row">
+          <div class="subrole">Childcare Provider</div>
+          <div class="right">Feb. 2020 - Present</div>
+        </div>
+        <ul>
+          <li>Supervise and monitor the safety of children in my care</li>
+          <li>Communicate effectively with parents on expectations and household rules</li>
+          <li>Manage bed-time routines based on parents' specifications</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Service &amp; Leadership</h2>
+
+      <article class="entry">
+        <div class="row">
+          <strong>Woodland Village</strong>
+          <div class="right">San Marcos, CA</div>
+        </div>
+        <div class="row">
+          <div class="subrole">Senior Care Facility Volunteer</div>
+          <div class="right">Apr. 2024 - Present</div>
+        </div>
+        <ul>
+          <li>Supervise various activities for the seniors, such as organizing and leading the regular bingo game nights</li>
+          <li>Assist the residents with anything they may need help with</li>
+          <li>Handle and distribute money</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="row">
+          <strong>Youth Group with the Church of Jesus Christ of Latter-day Saints</strong>
+          <div class="right">San Marcos, CA</div>
+        </div>
+        <div class="row">
+          <div class="subrole">Member of the Youth Program</div>
+          <div class="right">Jan. 2020 - Present</div>
+        </div>
+        <ul>
+          <li>Participate in early morning scripture study before school</li>
+          <li>Perform various service activities in the community</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Skills, Activities, and Interests</h2>
+      <ul>
+        <li>Work ethic, communication, leadership, problem-solving, time management, creativity</li>
+        <li>Painting, drawing, and sculpting</li>
+        <li>Baking</li>
+      </ul>
+    </section>
+  </main>
+  </div>
+</body>
+</html>
